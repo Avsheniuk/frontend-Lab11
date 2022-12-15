@@ -33,7 +33,7 @@ function check() {
     }
 
     if (curr === 9) {
-        $('#repeat-box #message').text('You guessed ' + correct + ' слів з 10!');
+        $('#repeat-box #message').text('You guessed ' + correct + ' words from 10!');
         $('#repeat-box').show();
         $('#check').prop('disabled', true);
         return;
